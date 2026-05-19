@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      background: #0f0f0f;
+      color: white;
+      font-family: sans-serif;
+    }
+    h2 { text-align: center; margin-bottom: 4px; }
+    p  { text-align: center; color: #888; font-size: 12px; }
+    input {
+      width: 100%;
+      background: #1f1f1f;
+      border: none;
+      color: white;
+      padding: 8px;
+      border-radius: 8px;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      margin-top: 12px;
+      padding: 10px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover { background: #1d4ed8; }
+    #status {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #4ade80;
+    }
+  </style>
+</head>
+<body>
+  <h2>👁️ SAATCHI</h2>
+  <p>Your Digital Witness</p>
+  <input id="sender" placeholder="Sender username (optional)" />
+  <input id="description" placeholder="Brief description (optional)" />
+  <button id="capture">🔴 Capture Evidence</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
